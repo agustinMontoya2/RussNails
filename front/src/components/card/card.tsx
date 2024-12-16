@@ -1,4 +1,4 @@
-import { Nail } from "../../interfaces";
+// import { Nail } from "../../interfaces";
 
 function Card({nail}: any) {
     
