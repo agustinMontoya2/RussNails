@@ -14,9 +14,11 @@ function Navbar() {
         {/* Barra de navegación */}
         <div className="w-full bg-[#1E90FF] h-16 items-center flex justify-center">
           <div className="w-[90%] flex justify-between items-center">
+            <a href="/">
             <h1 style={{ fontFamily: "Voltaire" }} className="text-5xl text-[#FFFFFF] font-voltaire">
               RussNailss
             </h1>
+            </a>
             <img
               src={Menu} // Reemplaza con el icono real
               alt="menu"
@@ -36,6 +38,7 @@ function Navbar() {
               <hr className="border-t-2 border-white mb-4" />
               {nails.map((nail) => (
                 <a
+                onClick={toggleMenu}
                   key={nail.id}
                   href={`#${nail.id}`} // Cambia el href por lo que sea necesario
                   className="text-white text-lg block mb-2 hover:bg-[#024581]"
