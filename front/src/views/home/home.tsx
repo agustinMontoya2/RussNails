@@ -10,7 +10,7 @@ function Home() {
       <h3 className="font-poppins text-[#4F4F4F] text-base">Encontra el estilo perfecto para cada ocasion</h3>
       <Cards nails={nails.nails}/>
       {nails.nails.map((nail) => (
-        <div className='w-[90%] flex flex-col items-center mt-2 mb-4'>
+        <div className='w-[90%] flex flex-col items-center mt-2 mb-4' id={nail.id}>
             <h2 style={{fontFamily: "Voltaire"}} className="text-2xl text-[#FFFFFF] mb-2">{nail.nombre}</h2>
                 <CardsCategory key={nail.id} nail={nail} />
             </div>

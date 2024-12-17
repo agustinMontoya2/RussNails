@@ -37,7 +37,7 @@ function Navbar() {
               {nails.map((nail) => (
                 <a
                   key={nail.id}
-                  href={`/${nail.nombre}`} // Cambia el href por lo que sea necesario
+                  href={`#${nail.id}`} // Cambia el href por lo que sea necesario
                   className="text-white text-lg block mb-2 hover:bg-[#024581]"
                 >
                   {nail.nombre}
