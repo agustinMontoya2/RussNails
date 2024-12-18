@@ -4,43 +4,60 @@
         "id": "f41627ce-8731-4116-8bd0-21870151721f",
         "nombre": "Semipermanente",
         "precio": 7000,
-        "descripcion": "Uñas con un acabado duradero que resiste mejor los daños. Ideal para quienes buscan una manicura resistente por varias semanas.",
-        "imagenes": ["https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733878261/semi3_lenlz4.jpg", "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733878261/semi4_bl3a0o.jpg", "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733878262/semi5_nd9cwx.jpg", "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733878261/semi6_cp4t7v.jpg", "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733878261/semi1_xclrvc.jpg", "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733878261/semi2_a6vipn.jpg"]
+        "descripcion": "La manicura semipermanente es un esmaltado de secado inmediato y de larga duración, que deja un resultado perfecto y resistente en las uñas. Ideal para quienes buscan una manicura impecable durante varias semanas, secada con luz UV o LED.",
+        "imagenes": [
+          "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733878261/semi3_lenlz4.jpg",
+          "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733878261/semi4_bl3a0o.jpg",
+          "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733878262/semi5_nd9cwx.jpg",
+          "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733878261/semi6_cp4t7v.jpg",
+          "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733878261/semi1_xclrvc.jpg",
+          "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733878261/semi2_a6vipn.jpg"
+        ]
       },
       {
         "id": "666f705e-7406-4c9f-bad7-bf9be816b5fe",
         "nombre": "Press On Simple",
         "precio": 8000,
-        "descripcion": "Uñas postizas fáciles de aplicar. Vienen listas para pegar y ofrecen un acabado perfecto al instante.",
+        "descripcion": "Las uñas Press On son postizas y listas para colocar, diseñadas para pegar desde la comodidad de tu hogar. Son perfectas para emergencias, fáciles de aplicar y reutilizables.",
         "imagenes": ["", "", ""]
       },
       {
         "id": "f3ca3d83-c22d-4897-9efa-4169fdfa0e6c",
         "nombre": "Press On Nail Art",
         "precio": 9000,
-        "descripcion": "Uñas postizas con diseño artístico. Perfectas para quienes buscan algo más creativo y único.",
+        "descripcion": "Las Press On Nail Art son uñas postizas con diseños artísticos únicos. Ofrecen una solución creativa y rápida para quienes buscan destacar con un estilo personalizado y reutilizable.",
         "imagenes": ["", "", ""]
       },
       {
         "id": "6673b43a-83f9-4763-9558-42ba1fc078d2",
         "nombre": "Soft Gel Simple",
         "precio": 10000,
-        "descripcion": "Uñas de gel suave con un acabado natural y duradero. Aporta un aspecto más natural que el gel tradicional.",
+        "descripcion": "El Soft Gel Simple utiliza tips fabricados con gel que cubren completamente la uña, brindando un acabado natural y duradero. Se adhieren con una base especial y se curan con lámpara LED.",
         "imagenes": ["https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733876276/softgel5_xfwfzk.jpg"]
       },
       {
         "id": "9c39dd51-68f8-447b-bb36-9bad36a36262",
         "nombre": "Soft Gel Nail Art",
         "precio": 11000,
-        "descripcion": "Uñas de gel suave con arte de uñas. Una opción duradera y creativa para quienes buscan algo único.",
-        "imagenes": ["https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733876276/softgel1_bcdyvt.jpg", "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733876276/softgel2_h0pqyx.jpg", "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733876276/softgel4_tdzuzj.jpg", "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733876276/softgel6_nm7f9a.jpg", "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733876276/softgel3_ispqrd.jpg"]
+        "descripcion": "El Soft Gel Nail Art combina la resistencia del gel con un diseño creativo y único. Se adhieren con una base permanente especial y se curan con lámpara LED, cubriendo completamente la uña.",
+        "imagenes": [
+          "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733876276/softgel1_bcdyvt.jpg",
+          "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733876276/softgel2_h0pqyx.jpg",
+          "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733876276/softgel4_tdzuzj.jpg",
+          "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733876276/softgel6_nm7f9a.jpg",
+          "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733876276/softgel3_ispqrd.jpg"
+        ]
       },
       {
         "id": "a91d613d-155e-4d91-9bad-4aad0534e801",
         "nombre": "Kapping",
         "precio": 8500,
-        "descripcion": "Técnica de uñas con una capa gruesa de gel para mayor durabilidad y fortaleza. Ideal para uñas frágiles.",
-        "imagenes": ["https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733878017/kapping3_dwompp.jpg", "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733878017/kapping1_l80kuy.jpg", "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733878017/kapping2_ozq6zx.jpg"]
+        "descripcion": "El kapping es una técnica que fortalece las uñas aplicando una fina capa de acrílico o gel fortificador. Este método las hace más gruesas y resistentes, actuando como una barrera protectora, ideal para uñas frágiles.",
+        "imagenes": [
+          "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733878017/kapping3_dwompp.jpg",
+          "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733878017/kapping1_l80kuy.jpg",
+          "https://res.cloudinary.com/dxpxzcj2i/image/upload/v1733878017/kapping2_ozq6zx.jpg"
+        ]
       }
     ]
   }
