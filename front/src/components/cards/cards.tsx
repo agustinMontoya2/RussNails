@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { Nails } from "../../interfaces"
 import Card from "../card/card"
 // import { useState } from "react"
@@ -18,11 +19,13 @@ function Cards({nails}: Nails) {
 
   // const visibleNails = nails.slice(currentIndex, currentIndex + 3)
   return (
-    <div className="w-[90%] flex flex-col items-center mt-5">
-      <h2 style={{fontFamily: "Voltaire"}} className="text-2xl text-[#FFFFFF] mb-2">Nails</h2>
-      <div className="w-full overflow-x-auto flex items-center gap-4 scrollbar-hide">
+    <div className="w-full flex flex-col items-center mt-5 mb-5">
+      <h2 style={{fontFamily: "Voltaire"}} className="text-4xl text-[#FFFFFF] mb-2">Nails</h2>
+      <div className=" flex flex-col items-center gap-7 xl:grid xl:grid-cols-3 xl:gap-12 ">
     {nails.map((nail) => (
-      <Card key={nail.id} nail={nail} />
+      <Link to={`/${nail.id}`} key={nail.id}>
+      <Card key={nail.id} nail={nail}/>
+      </Link>
     ))}
   </div>
     </div>
