@@ -3,6 +3,7 @@ import Footer from "./views/footer/footer"
 import Home from "./views/home/home"
 import Navbar from "./views/navbar/navbar"
 import Card from "./views/card/card"
+import NotFound from "./views/notFound/notFound"
 
 
 function App() {
@@ -15,8 +16,8 @@ function App() {
       <main>
         <Routes>
         <Route path="/" element={<Home />} />
-      {/* <Home /> */}
-      <Route path="/:id" element={<Card />} />
+      <Route path="/nails/:id" element={<Card />} />
+      <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
 

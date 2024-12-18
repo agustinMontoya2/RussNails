@@ -23,7 +23,7 @@ function Cards({nails}: Nails) {
       <h2 style={{fontFamily: "Voltaire"}} className="text-4xl text-[#FFFFFF] mb-2">Nails</h2>
       <div className=" flex flex-col items-center gap-7 xl:grid xl:grid-cols-3 xl:gap-12 ">
     {nails.map((nail) => (
-      <Link to={`/${nail.id}`} key={nail.id}>
+      <Link to={`nails/${nail.id}`} key={nail.id}>
       <Card key={nail.id} nail={nail}/>
       </Link>
     ))}

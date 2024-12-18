@@ -38,14 +38,14 @@ function Card() {
   />
   </Link>
   {/* Contenedor principal */}
-  <div className="bg-[#FFFFFF] w-[90%] max-w-4xl h-[65%] flex flex-col rounded-xl">
+  <div style={{maxHeight: "36rem"}} className="bg-[#FFFFFF] w-[90%] max-w-4xl h-[65%] flex flex-col rounded-xl shadow-hoverCentered">
     {nail ? (
       <div className="w-full h-full flex flex-col justify-evenly items-center">
         <div className="h-1/6 flex items-center justify-center">
         <h4 style={{ fontFamily: "Voltaire" }} className=" text-[#1E90FF] text-3xl">{nail.nombre}</h4>
         </div>
-        <div className="h-4/6 flex flex-col items-center justify-evenly sm:flex-row">
-        <div className="w-full flex flex-col items-center">
+        <div className="h-4/6 flex flex-col items-center justify-evenly md:flex-row">
+        <div className="w-full flex flex-col items-center md:w-1/2">
       {nail.imagenes.length > 1 ? (
         // Carrusel para múltiples imágenes
         <>
@@ -88,7 +88,7 @@ function Card() {
         />
       )}
     </div>
-        <div className="h-full flex flex-col items-center justify-evenly">
+        <div className="h-full flex flex-col items-center justify-evenly md:w-1/2">
             <p className="font-poppins text-[#4F4F4F] text-center">{nail.descripcion}</p>
             <h4 className=" font-poppins text-[#4F4F4F] text-2xl">${nail.precio}</h4>
         </div>

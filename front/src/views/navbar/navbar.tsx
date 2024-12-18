@@ -1,11 +1,14 @@
 import Menu from "../../assets/menu.svg"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { nails } from "../../helpers/Nails.json"
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
+  const location = useLocation();
     const [isMenuOpen, setIsMenuOpen] = useState(false); // Estado para controlar la visibilidad del menú
-  
+  useEffect(() => {
+    setIsMenuOpen(false);
+  }, [location]);
     const toggleMenu = () => {
       setIsMenuOpen(!isMenuOpen);
     };
@@ -41,7 +44,7 @@ function Navbar() {
                 <Link
                 onClick={toggleMenu}
                   key={nail.id}
-                  to={`${nail.id}`} // Cambia el to por lo que sea necesario
+                  to={`/nails/${nail.id}`} // Cambia el to por lo que sea necesario
                   className="text-white text-lg block mb-2 hover:bg-[#024581]"
                 >
                   {nail.nombre}
