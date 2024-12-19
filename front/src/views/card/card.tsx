@@ -94,7 +94,9 @@ function Card() {
         </div>
         </div>
         <div className="h-[10%] flex items-center justify-center">
+            <a target="_blank" href={`https://api.whatsapp.com/send?phone=+5491130171191&text=Buen%20dia!%20Queria%20pedirte%20turno%20para%20unas%20uñas%20${nail.nombre}`}>
         <button className="bg-[#1E90FF] text-white py-2 px-4 rounded-md">Agendar turno</button>
+            </a>
         </div>
       </div>
     ) : (
